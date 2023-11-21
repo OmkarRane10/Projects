@@ -1,5 +1,6 @@
 # Projects
-Data engineering projects
+## **Data engineering projects**
+
 In this project, I have applied Data Modeling with Postgres and build an ETL pipeline using Python.
 
 #Context for the project - 
