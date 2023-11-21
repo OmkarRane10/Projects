@@ -36,7 +36,7 @@ def process_log_file(cur, filepath):
     :param filepath: complete file path for the file to load
     """
     # open log file
-    df = df = pd.read_json(filepath, lines=True)
+    df = pd.read_json(filepath, lines=True)
 
     # filter by NextSong action
     df = df[df['page'] == "NextSong"].astype({'ts': 'datetime64[ms]'})
